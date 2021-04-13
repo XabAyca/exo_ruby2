@@ -5,4 +5,5 @@ email =[]
   email += ["jean.dupont.#{i}@email.fr"]
 end
 
-puts email.select.each_with_index { |item , j| j.even? }
+#Pour afficher les e-mails avec un index pair
+puts email.select.each_with_index { |item, index| index.even? }
