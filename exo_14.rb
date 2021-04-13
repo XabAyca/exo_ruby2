@@ -1,4 +1,3 @@
-#variable
 email =[]
 
 50.times do |i|

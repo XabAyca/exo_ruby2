@@ -1,3 +1,4 @@
 puts "En quel année es-tu née ?"
-age = gets.chomp.to_i
-puts "Tu avais #{2017 - age} en 2017"
+print "> "
+year = gets.chomp.to_i
+puts "Tu avais #{2017 - year} ans en 2017"

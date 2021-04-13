@@ -1,4 +1,4 @@
-puts 'Quel est ton prénom?'
+puts "Quel est ton prénom?"
+print "> "
 prenom = gets.chomp
-puts "Bonjour #{prenom} !"
-
+puts "Bonjour, #{prenom} !"
